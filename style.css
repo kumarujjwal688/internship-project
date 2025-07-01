@@ -1,0 +1,74 @@
+@media (max-width: 768px) {
+
+.navbar-nav {
+
+text-align: center;
+}
+}
+ .carousel-item {
+      height: 100vh;
+      background-size: cover;
+      background-position: center;
+      position: relative;
+    }
+
+    .carousel-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.6); /* Black overlay */
+      z-index: 1;
+    }
+
+    .carousel-caption {
+      z-index: 2;
+      position: relative;
+    }
+
+    .carousel-caption h1 {
+      font-weight: bold;
+      font-size: 3rem;
+    }
+
+    .carousel-caption p {
+      font-size: 1.2rem;
+    }
+
+    @media (max-width: 768px) {
+      .carousel-caption h1 {
+        font-size: 2rem;
+      }
+
+      .carousel-caption p {
+        font-size: 1rem;
+      }
+    }
+    .about-section {
+
+padding: 60px 0;
+
+}
+
+.about-section h2 {
+
+font-size: 2.5rem;
+
+margin-bottom: 30px;
+
+}
+
+.tab-content h3 {
+
+font-size: 1.8rem;
+
+margin-bottom: 20px;
+
+}
+
+.tab-content p {
+
+font-size: 1.1rem; margin-bottom: 20px;
+
+}
